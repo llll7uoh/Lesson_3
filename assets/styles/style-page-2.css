@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Space Grotesk';
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*разделение страницы на два блока (фракции) */
+}
+
+.left-page {
+    display: grid;
+    justify-items: left;
+    align-items: end;
+    background-image: url(../img/bg_login_page_2.png);
+    background-size: cover; /*заполнить пространство (div) картинкой */
+    background-position: center;
+    padding: 80px 100px; /*отступы от границ */
+}
+.block-text>h3 {
+font-family: 'Monrope';
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+color: #ffffff;
+}
+
+.block-text>p {
+    font-family: 'Monrope';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    
+}
+.right-page{
+    background-color: #ffffff;
+}
+
+.content {
+    width: 400px;
+    margin: 130px auto;
+
+}
+.logo {
+    display: flex;
+
+}
+
+.logo>span {
+
+}
+
+.greeting {
+  margin-top: 107px;
+}
+
+.greeting>h2 {
+    font-family: 'Monrope';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+}   
+.greeting>span {    
+    font-size: 400px;
+}
+
+.google-btn {   
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 12px;
+    gap: 16px;
+    width: 100%;
+    height: 66px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px; 
+    transition: all .25s;
+    background-color: #e1e1e1;
+    cursor: pointer;
+
+
+}
+.google-btn :hover {    
+    background-color: aliceblue;
+
+}
+
+.google-btn>span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+
+
+}
+
+.divider {
+
+    margin-top: 32px;
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.decider>span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #7a7a7a;
+    margin-bottom: -11px;
+    background-color: #ffffff;
+    padding: 0 10px;
+
+}
+
+input{type-password}, input{type-email}
+{
+    display: flex;
+    ali
+    
+}
+
+.setting>a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-decoration-line:   underline;
+    color: #000000;
+
+
+}
+.login-btn {
+    display: flex;
+    justify-content: center;
+    padding: 20px 36px;
+    width: 100%;
+    height: 60px;
+    
+}
